@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/')
+fetch('https://cairo-hotels-api-r6eb.onrender.com')
       .then(response => response.json())
        .then(hotel =>{  
         for(var i=0;i<hotel.length;i++) {
